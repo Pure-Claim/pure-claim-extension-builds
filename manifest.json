@@ -9,5 +9,9 @@
   "action": {
     "default_popup": "./index.html",
     "default_icon": "./icons/icon.png"
+  },
+  "permissions": ["storage", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
   }
 }
